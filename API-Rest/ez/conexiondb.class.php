@@ -13,7 +13,7 @@
             $this->puerto = "3306";
             $this->user = "root";
             $this->pass = "";
-            $this->db = "ws_xamarin";
+            $this->db = "epidemic-zombiedb";
             if(isset($puerto)){
                 $this->servidor = $this->Servidor . ":" . $this->puerto;
             }
