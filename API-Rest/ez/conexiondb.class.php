@@ -11,9 +11,9 @@
         function __construct(){
             $this->servidor = "localhost";
             $this->puerto = "3306";
-            $this->user = "root";
-            $this->pass = "";
-            $this->db = "epidemic-zombiedb";
+            $this->user = "id5753920_usr";
+            $this->pass = "RamonJamon";
+            $this->db = "id5753920_epidemic_zombiedb";
             if(isset($puerto)){
                 $this->servidor = $this->Servidor . ":" . $this->puerto;
             }
